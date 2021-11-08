@@ -8,29 +8,34 @@
         android:id="@+id/rvtv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:layout_weight="1" />
 
     <TextView
         android:id="@+id/rvtv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:layout_weight="1"/>
     <TextView
         android:id="@+id/rvtv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:layout_weight="1" />
 
     <TextView
         android:id="@+id/rvtv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:layout_weight="1" />
 
     <CheckBox
         android:id="@+id/rvcb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:layout_weight="1"/>
 
     <Button
