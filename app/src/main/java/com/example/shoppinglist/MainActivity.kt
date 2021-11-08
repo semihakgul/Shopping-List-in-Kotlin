@@ -1,19 +1,19 @@
 package com.example.shoppinglist
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.shoppinglist.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val actionBar = supportActionBar
-        actionBar!!.title = "Shopping App"
+        setTheme(android.R.style.Theme_Black)
 
         val navShoppingListButton: Button = findViewById (R.id.navShoppingList)
 
