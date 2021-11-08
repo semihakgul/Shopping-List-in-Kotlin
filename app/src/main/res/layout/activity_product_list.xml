@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -28,7 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
         android:layout_marginTop="12dp"
-        android:onClick="click"
         android:text="ADD / DELETE ALL"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et3" />
@@ -75,3 +75,4 @@
         app:layout_constraintTop_toBottomOf="@+id/et2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
